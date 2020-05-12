@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://lakshman-natours.herokuapp.com/"><img src="https://github.com/lgope/Natours/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
+    <img src="https://github.com/lgope/Natours/blob/master/public/img/logo-green-round.png" alt="Natours" width="200">
   <br>
   Natours
   <br>
@@ -9,22 +9,15 @@
 <h4 align="center">An awesome tour booking site built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>.</h4>
 
  <p align="center">
- <a href="#deployed-version">Demo</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#demonstration">Demonstration</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#api-usage">API Usage</a> •
-  <a href="#deployment">Deployment</a> •
   <a href="#build-with">Build With</a> •
   <a href="#to-do">To-do</a> •
   <a href="#installation">Installation</a> • 
-  <a href="#known-bugs">Known Bugs</a> • 
-  <a href="#future-updates">Future Updates</a> • 
-  <a href="#acknowledgement">Acknowledgement</a>
 </p>
 
-## Deployed Version
-Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
 
 
 ## Key Features
@@ -108,25 +101,6 @@ Get Tours Within Radius 👉 https://lakshman-natours.herokuapp.com/api/v1/tours
 
 
 
-## Deployment
-The website is deployed with git into heroku. Below are the steps taken:
-```
-git init
-git add -A
-git commit -m "Commit message"
-heroku login
-heroku create
-heroku config:set CONFIG_KEY=CONFIG_VALUE
-parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js
-git push heroku master
-heroku open
-```
-You can also changed your website url by running this command:
-```
-heroku apps:rename natours-users
-```
-
-
 ## Build With
 
 * [NodeJS](https://nodejs.org/en/) - JS runtime environment
@@ -141,17 +115,6 @@ heroku apps:rename natours-users
 * [Mailtrap](https://mailtrap.io/) & [Sendgrid](https://sendgrid.com/) - Email delivery platform
 * [Heroku](https://www.heroku.com/) - Cloud platform
 
-
-
-## To-do
-
-* Review and rating
-  - Allow user to add a review directly at the website after they have taken a tour
-* Booking
-  - Prevent duplicate bookings after user has booked that exact tour, implement favourite tours
-* Advanced authentication features
-  - Signup, confirm user email, login with refresh token, two-factor authentication
-* And More ! There's always room for improvement!
 
 
 ## Installation
@@ -172,18 +135,13 @@ eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
 ```
 
 
-## Known Bugs
-Feel free to email me at lakshman.gope2@gmail.com if you run into any issues or have questions, ideas or concerns.
-Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you! 🙂
+## To-do
 
-## Future Updates
-
-* Enable PWA
-* Improve overall UX/UI and fix bugs
-* Featured Tours
-* Recently Viewed Tours
+* Review and rating
+  - Allow user to add a review directly at the website after they have taken a tour
+* Booking
+  - Prevent duplicate bookings after user has booked that exact tour, implement favourite tours
+* Advanced authentication features
+  - Signup, confirm user email, login with refresh token, two-factor authentication
 * And More ! There's always room for improvement!
 
-## Acknowledgement
-
-* This project is part of the online course I've taken at Udemy. Thanks to Jonas Schmedtmann for creating this awesome course! Link to the course: [Node.js, Express, MongoDB & More: The Complete Bootcamp 2019](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
